@@ -7,17 +7,21 @@
   text-decoration: none;
   
 }
-
-
-.header_lists {
+.header-lists {
   list-style: none;
   margin-top: 25px ;
   display: flex;
   justify-content: space-around;
 }  
 
-.header_list {
+.header-list a {
+  text-decoration: none;
+  color: white;
+}
+
+.header-list {
   padding: 20px;
+  text-decoration: none;
 }
 
 .search_container{
