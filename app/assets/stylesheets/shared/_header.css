@@ -4,9 +4,13 @@
   height: 75px ;
   font-size: 14px;
   color: gray;
-  text-decoration: none;
-  
 }
+
+.title-font {
+  border-bottom: dotted 3px #eee7e0;
+  font-size: 28px;
+}
+
 .header-lists {
   list-style: none;
   margin-top: 20px ;
@@ -14,14 +18,9 @@
   justify-content: space-around;
 }  
 
-.header-list a {
-  text-decoration: none;
-  color: white;
-}
-
 .header-list {
-  /* padding: 10px; */
   text-decoration: none;
+  color: gray;
 }
 
 .search_container{
