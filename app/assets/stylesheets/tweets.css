@@ -1,5 +1,5 @@
 
-.wrapper{
+.tweet-wrapper{
   width:100%;
   background-image:url(Lsize.jpg);
   background-repeat:no-repeat;
@@ -8,14 +8,14 @@
   background-attachment: fixed;
 }
 
-.wrapper .container{
+.tweet-wrapper .container{
   max-width:1000px;
   margin:0px auto;
   padding:80px 0px;
   
 }
 
-.wrapper .content .heading{
+.tweet-wrapper .content .heading{
   margin:0px 0px 40px 0px;
   color:black;
   font-size: 40px;
@@ -25,21 +25,21 @@
 }
 
 @media (min-width: 992px) {
-  .wrapper .content .list {
+  .tweet-wrapper .content .list {
       display: flex;
       align-items: center;
       justify-content: center;
   }
 }
 
-.wrapper .content .list-item {
+.tweet-wrapper .content .list-item {
   padding:30px;
   line-height:1.8rem;
   color:#ffffff;
   text-align:center;
 }
 @media (min-width: 992px) {
-  .wrapper .content .list-item {
+  .tweet-wrapper .content .list-item {
       width:50%;
   }
 }
@@ -63,6 +63,7 @@
    margin: 4em auto;
    position: relative;
    max-width: 46em;
+   text-align: center;
  }
  
  .timeline-event {
@@ -75,4 +76,13 @@
    margin-bottom: 1.2em;
    padding: 0.25em 1em 0.2em 1em;
  }
+
+/* 画像 */
+ .item-box-img {
+  height: 50vh;
+  width: 60vw;
+  min-height: 500px;
+  background-color: rgb(205, 202, 202);
+  object-fit: contain;
+}
 
